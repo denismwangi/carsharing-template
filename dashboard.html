@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Carshare</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+        <link href="css/dashboard/sb-admin-2.min.css" rel="stylesheet">
+    <link href="css/dashboard/sb-admin-2.min.css" rel="stylesheet">
+    <link href="css/dashboard/custom-styles.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    <div id="wrapper" >
+      <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion  id="accordionSidebar" style="background-color: green;">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../Dashboard">
+                <img class=" rounded-circle"
+                                    src="../assets/img/logo.jpeg" height="100px" style="margin-right: 10px; "> 
+                <div class="sidebar-brand-text mx-3"></div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="dashboard.html">
+                    <i class="fa fa-dashboard"></i>
+                    <span style="font-size: 15px">Dashboard</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                  <a class="nav-link" href="allcars.html">
+                   <i class="fa fa-cart-plus" style="color: #FFF; font-size:20px"></i>
+                <span class="nav-link-text"  style="font-size:15px">All Cars</span>
+            </a>
+                
+                
+            </li>
+
+            <!-- Nav Item - Utilities Collapse Menu -->
+            
+            <!-- Divider -->
+        
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="mycars.html">
+               <i class="fa fa-money" style="color: #FFF; font-size:20px"></i>
+                <span class="nav-link-text" style="font-size:15px">My cars</span>
+            </a>
+            </li>
+
+            <!-- Nav Item - Charts -->
+            <li class="nav-item">
+                <a class="nav-link" href="">
+
+               <i class="fa fa-building" style="color: #FFF; font-size:20px"></i>
+                <span class="nav-link-text" style="font-size:15px">Borrowed Cars</span>
+            </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="">
+              <i class="fa fa-hdd-o" style="color: #FFF; font-size:20px"></i>
+                <span class="nav-link-text" style="font-size:15px">Transactions</span>
+            </a>
+                
+            </li>
+
+
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            
+
+         
+
+        </ul>
+    <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link  rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+               
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                  
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"></span>
+                        
+                                <img class="img-profile rounded-circle"
+                                    src="../assets/img/undraw_profile.svg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                             
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+     
+      <div class="container-fluid">
+      <!-- Breadcrumbs-->
+     
+        <div id="page-inner1" style="margin-left: 30px">
+
+                <!-- /. ROW  -->
+  
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12" s>
+          <div class="board" >
+                        <div class="panel panel-primary" style="border-radius:7px">
+            <div class="number">
+              <h3>
+                <h3>55</h3>
+                <small>All Vahicles</small>
+              </h3> 
+            </div>
+            <div class="icon">
+                <i class="fa fa-shopping-cart fa-5x blue"></i>
+            </div>
+     
+                        </div>
+            </div>
+                    </div>
+                     <div class="col-md-3 col-sm-12 col-xs-12">
+          <div class="board">
+                        <div class="panel panel-primary" style="border-radius:7px">
+            <div class="number">
+              <h3>
+                <h3>4</h3>
+                <small>Car Borrowed</small>
+              </h3> 
+            </div>
+            <div class="icon">
+               <i class="fa fa-money fa-5x red"></i>
+            </div>
+     
+                        </div>
+            </div>
+                    </div>
+          
+                 <div class="col-md-3 col-sm-12 col-xs-12" >
+          <div class="board" >
+                        <div class="panel panel-primary" style="border-radius:7px">
+            <div class="number">
+              <h3>
+                <h3>4500</h3>
+                <small>Total Income</small>
+              </h3> 
+            </div>
+            <div class="icon">
+                            <i class="fa fa-hdd-o fa-5x green" aria-hidden="true"></i>
+               <!-- <i class="fa fa-user fa-5x yellow"></i> -->
+            </div>
+     
+                        </div>
+            </div>
+                    </div>
+          
+                 <div class="col-md-3 col-sm-12 col-xs-12">
+          <div class="board">
+                        <div class="panel panel-primary" style="border-radius:7px">
+            <div class="number">
+              <h3>
+                <h3>1200</h3>
+                <small>Total Spent</small>
+              </h3> 
+            </div>
+            <div class="icon">
+                <i class="fa fa-building fa-5x yellow"></i>
+            </div>
+     
+                        </div>
+            </div>
+                    </div>
+          
+              
+                </div>
+             <div class="row">
+                       <style type="text/css">
+                        .col-sm-611{ 
+                                position: relative;
+    width: 47%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 20px;
+   
+                         } .col-xs-100{
+                                position: relative;
+    width: 47%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 40px;
+     min-height: 1px;
+
+                         }
+                         @media only screen and (max-width: 855px){
+    .col-xs-100{
+        width: 90%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        height: 100%;
+    }
+    .col-sm-611{
+        width: 90%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        height: 100%;
+
+    }
+}
+                           
+                       </style>
+                        <div class="col-sm-611 col-xs-121" style="background-color: #fff; border-radius: 10px">
+                        <div class="panel panel-primary" style="border-radius:37px">  
+                            <div class="panel panel-default chartJs" style="border-radius: 20px">
+                                <div class="panel-heading">
+                                    <div class="card-title">
+                                        <div class="title" style="margin-left: 10px">Last seven days</div>
+                                    </div>
+                                </div>
+                                <div class="panel-body">
+                                    <div id="chart-container" style="background: #fff">
+                                      <canvas id="graphCanvas1"></canvas>
+                                   </div>
+
+   
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  
+                       <div class=" col-xs-100" style="background-color: #fff; border-radius: 10px">
+                            <div class="panel panel-default chartJs">
+                                <div class="panel-heading">
+                                    <div class="card-title">
+                                        <div class="title" style="margin-left: 10px">Monthly Income</div>
+                                    </div>
+                                </div>
+                                <div class="panel-body">
+                                   <!--  <canvas id="bar-chart" class="chart"></canvas> -->
+                                   <div id="chart-container" style="background: #fff">
+        <canvas id="graphCanvas"></canvas>
+    </div>
+
+               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     </div>
+    </div>
+</div>
+        
+
+
+               
+
+  </body>
+  <script type="text/javascript" src="css/dashboard/js/Chart.min.js"></script>
+<script type="text/javascript" src="css/dashboard//js/sweetalert.min.js"></script>
+  <script src="css/dashboard/js/sb-admin-2.min.js"></script>
+   <script src="css/dashboard/js/sb-admin-2.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+  </html>
